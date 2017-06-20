@@ -1,0 +1,103 @@
+
+.footercnt {
+	display:flex;
+	justify-content: space-between;
+
+	h2 {
+		font-family: $font1;
+		font-size: 24px;
+		font-weight: 400;
+
+	}
+	p, a {
+		color:$secondaryColor;
+		font-size:14px;
+		font-family: $font1;
+		font-weight: 500;
+	}
+	.address {
+		font-family: $font1;
+		font-size: 14px;
+		color:$primaryColor;
+	}
+	.footericons a {
+		font-size:24px;
+		font-family: $font1;
+		color:$primaryColor;
+		padding-right:5px;
+
+	}
+	ul {
+		list-style-type: none;
+		padding:0;
+	}
+	.box1 {
+		img {
+			margin-bottom:4.5vh;
+		}
+		width:40%;
+		align-self:flex-start;
+		margin-right:30px;
+		margin-bottom: 20vh;
+	}
+	.box2 {
+		width:15%;
+		align-self:flex-start;
+		margin-right:30px;
+
+	}
+	.box3 {
+		width:15%;
+		align-self:flex-start;
+		margin-right:30px;
+	}
+	.box4 {
+		width:30%;
+		align-self:flex-start;
+	}
+}
+	.footgallery__list {
+		list-style-type:none;
+		padding:0;
+		display:flex;
+		flex-wrap:wrap;
+		li {			
+			margin:5px;
+		
+			img {
+				display:block;
+				width:100%;
+
+			}
+
+		}
+	}
+	.creditcards__list {
+		padding:0;
+		list-style: none;
+		display:flex;
+		li {
+			padding-right:5px;
+		}
+	}
+	.finalfooter {
+		border-top: 1px solid #dddfed;
+		.finalcnt {
+			height:100px;
+			display:flex;
+			justify-content: space-between;
+			align-items:center;
+			p {
+				font-size:14px;
+				font-family: $font1;
+				color:$secondaryColor;
+				span {
+					font-size:14px;
+				font-family: $font1;
+				color:$primaryColor;
+				}
+			}
+		}
+	}
+
+

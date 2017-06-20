@@ -1,0 +1,143 @@
+@import 'var';
+
+.switch  {
+	margin-top:20vh;
+	margin-bottom:20vh;
+	display:flex;
+	.customerf {
+		background-image: url(assets/shapebj.jpg);
+		background-position: center center;
+		width:50%;
+		height:620px;
+		display:flex;
+		flex-direction:column;
+		text-align:center;
+		justify-content:center;
+		align-items:center;
+		padding:110px;
+		.customercnt {
+		h2 {
+			font-family: $font1;
+			font-size:36px;
+			color:$primaryColor;
+			font-weight: 500;
+		}
+		p {
+			font-family: $font1;
+			font-size:16px;
+			font-weight: 400;
+			text-align: center;
+		}
+		h3 {
+			font-family: $font1;
+			font-size:14px;
+			text-transform: uppercase;
+			font-weight: 500;
+			text-align: center;
+			color:$secondaryColor;
+		}
+	}
+	}
+	.video {
+		background-image: linear-gradient(rgba(26, 26, 38, 0.5), rgba(26, 26, 38, 0.5)), url(assets/videobg.jpg);
+		width:50%;
+		height:620px;
+		display:flex;
+		flex-direction:column;
+		text-align:center;
+		justify-content:center;
+		align-items:center;
+		padding:110px;
+		img {
+			width:50%;
+		}
+
+	}
+}
+.blog {
+	margin-top:20vh;
+	h2 {
+		font-size:36px;
+		font-weight:500;
+		font-family: $font1;
+		text-align:center;
+		margin-bottom:10vh;
+	}
+	.blogitems {
+		list-style-type: none;
+		padding: 0;
+		display:flex;
+		justify-content:center;
+		margin-bottom:20vh;
+		li {
+			margin:20px;
+			width:33.33%;
+		}
+		img {
+			max-width: 100%;
+		}
+		h3 {
+			color: $secondaryColor;
+			font-family:$font1;
+			font-weight:400;
+			font-size:14px;
+		}
+		p {
+			text-align: left;
+			font-family:$font1;
+			font-weight:400;
+			font-size:18px;
+		}
+		a {
+			border-bottom: 1px solid $primaryColor;
+		}
+	
+	}
+}
+	.newsletter {
+
+		h2 {
+			font-size:36px;
+			font-weight:500;
+			font-family: $font1;
+			text-align:center;
+			margin-bottom:10vh;
+		}
+		p {
+			text-align:center;
+			color: $secondaryColor;
+			font-family:$font1;
+			font-weight:400;
+			font-size:14px;
+			margin-bottom:10vh;
+		}
+		form {
+			text-align:center;
+			margin:0 auto;
+			border-bottom:solid black 1px;
+			max-width:840px;
+			display:flex;
+			justify-content: space-between;
+			margin-bottom: 30vh;
+			input {
+				color: $secondaryColor;
+				font-family:$font1;
+				font-weight:400;
+				font-size:14px;
+				border:none;
+
+			}
+		}
+
+	}
+	.borbot {
+		border-bottom: 1px solid #dddfed;
+		margin-bottom:10vh;
+	.lrgicons {
+		padding: 0;
+		list-style-type: none;
+		display:flex;
+		justify-content: space-between;
+		margin-bottom:10vh;
+	}
+}

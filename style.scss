@@ -1,0 +1,49 @@
+@import 'partials/setup';
+@import 'partials/var';
+@import 'partials/header';
+@import 'partials/galleries';
+@import 'partials/main';
+@import 'partials/footer';
+@import 'partials/mediaqueries';
+
+
+
+
+.wrapper {
+	max-width:1170px;
+	margin:0 auto;
+}
+a {
+	color:$primaryColor;
+	text-decoration: none;
+}
+*:focus {
+	outline:none;
+}
+h2.fancyline:after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  display: block;
+  background: linear-gradient(to right, rgb(168, 237, 234) 0%, rgb(168, 237, 234) 30%, lightgray 30%, lightgray 70%, rgb(168, 237, 234) 70%, rgb(168, 237, 234) 100%);
+  margin: 0 auto;
+}
+h2.lessfancyline:after {
+content: "";
+  width: 40px;
+  height: 2px;
+  display: block;
+  background:rgb(168, 237, 234) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
